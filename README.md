@@ -1,3 +1,4 @@
+---
 title : Pilates App
 emoji: 📚
 colorFrom: red
@@ -7,6 +8,8 @@ app_file: app.py
 pinned: false
 license: mit
 short_description: Tool to provide users reformer exercises
+
+---
 
 # Pilates Reformer RAG App
 
