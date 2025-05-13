@@ -1,0 +1,14 @@
+[project]
+name = "pilates-rag-app"
+version = "0.1.0"
+dependencies = [
+  "chainlit",
+  "langchain",
+  "langchain-community",
+  "langchain-openai",
+  "faiss-cpu"
+]
+
+[build-system]
+requires = ["uv"]
+build-backend = "uv"
