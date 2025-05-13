@@ -32,7 +32,7 @@ qa_chain = RetrievalQA.from_chain_type(llm=llm, retriever=retriever)
 # On chat start
 @cl.on_chat_start
 async def start():
-    await cl.Message("Ready! Ask me anything about reformer Pilates.").send()
+    await cl.Message("Ready! Ask me anything about Reformer Pilates.").send()
     cl.user_session.set("qa_chain", qa_chain)
 
 # On message
