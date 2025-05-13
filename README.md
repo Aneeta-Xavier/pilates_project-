@@ -3,7 +3,7 @@ title : Pilates App
 emoji: 📚
 colorFrom: red
 colorTo: red
-sdk: chainlit
+sdk: docker
 app_file: app.py
 pinned: false
 license: mit
